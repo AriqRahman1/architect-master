@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items:center;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar h2{
+    padding-right: 123px;
+}
+.navbar span{
+    padding-right: 30px;
+}
+.head-bottom-section img{
+    width: 1000px;
+    margin-bottom: 45px;
+}
+.head-bottom-section h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.head-bottom-section p{
+    margin-top: 0 ;
+}
+.head-bottom-section button{
+    margin-bottom: 40px;
+    background-color:#FF900E;
+    border: 0;
+    border-radius: 10px;
+    width: 150px;
+    height: 64px;
+    color: white;
+}
+.head-bottom-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 120px;
+}
+/* main section */
+.main{
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 73px;
+    align-items: center;
+}
+.main button{
+    border: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 10px;
+}
+.main-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: 20px;
+    margin-left: 200px;
+}
+.main img{
+    width: 200px;
+    margin: 5px;
+}
+/* feature section */
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+.features img{
+    width: 500px;
+}
+.features-text{
+    margin-left: 100px;
+}
+
+/* fact section */
+.facts{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.fact-icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.fact-icons div{
+    display: grid;
+}
+/* sponsor section */
+.sponsor{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin-top: 180px;
+}
+.sponsor-icons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 80px;
+    margin-top: 40px;
+}
+footer{
+    background-color: #FFF4E7;
+    margin: 50px;
+    width: 1220px;
+    height: 70px;
+    margin-top: 130px;
+}
+footer p{
+    text-align: center;
+    padding-top: 25px;
+}
+
+@media only screen and (max-width: 688px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
